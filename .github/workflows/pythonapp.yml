@@ -31,3 +31,6 @@ jobs:
       run: |
         pip install pytest
         #pytest
+    - name: py1 test
+      run: |
+        python 1.py
